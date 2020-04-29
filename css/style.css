@@ -1,0 +1,354 @@
+html {
+    width: screen.width;
+    text-align: center;
+    margin: auto;
+    font-family: "Avant Garde", sans-serif;
+}
+
+.adjustment {
+    display: flex;
+    width: 99.5%;
+    justify-content: flex-end;
+}
+
+.alsovisit {
+    display: inline-flex;
+}
+
+.img {
+    margin-left: 10px;
+}
+
+.logo {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.containerlogo {
+    display: inline-block;
+    padding-bottom: 20px;
+    justify-content: space-evenly;
+    position:relative;
+    text-align: center;
+}
+
+.adilogo {
+    width: 30%;
+    position:absolute;
+    left: 1%;
+    top:3.8%;
+}
+
+.adidaslogo {
+    display: inline-flex;
+    margin-left: 33px;
+}
+
+.adidaslogo:hover {
+    transform: scale(1.1)
+}
+
+.originallogo {
+    display: inline-flex;
+    margin-left: 33px;
+}
+
+.originallogo:hover {
+    transform: scale(1.1)
+}
+
+
+.navbar {
+    background-color: black;
+    color: white;
+    padding: 0px;
+    text-align: center;
+    margin-bottom: 20px;
+    position:relative;
+}
+
+.search{
+    display:inline-block;
+    position: absolute;
+    left: 97%;
+    top: 32%;
+}
+.searchicon{
+    display:block;
+    height:2%;
+}
+
+.nav {
+    display: inline-flex;
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+    padding-top: 2px;
+}
+
+
+.listblock {
+    width: 66px;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: 36px;
+}
+
+.menusession {
+    display:inline-flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+    letter-spacing: 0.15em;
+    justify-content: center;
+    display:none;
+}
+
+.menusession .session{
+    display:inline-block;
+    margin-bottom: 2%;
+    padding: 0 4%;
+}
+
+.menusession .footerlist{
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+}
+
+
+main {
+    display: inline-block;
+    width: screen.width;
+}
+
+.mainimg {
+    display: inline-flex;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: space-between;
+
+}
+
+.imgdiv {
+    display: inline-flex;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.divimg {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 24%;
+    height: 24%;
+    text-align: center;
+}
+
+a{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 24%;
+    height: 24%;
+    text-align: center;
+    margin:0 -1%
+}
+
+.divimg3 {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 102%;
+    text-align: center;
+    padding: 0px;
+}
+
+.divimg3:hover{
+    transform: scale(1.03);
+    box-shadow : 0px 0px 15px rgba(0,0,0,0.4);
+}
+
+.divimg:hover{
+    transform: scale(1.03);
+    box-shadow : 0px 0px 15px rgba(0,0,0,0.4);
+}
+
+.sepdiv {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.seriesdiv {
+    display: inline-flex;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+
+.divimg1 {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 24%;
+    height: 24%;
+    margin: 0 -15px;
+    text-align: center;
+    padding: 0px;
+}
+
+
+.divimg1:hover{
+    transform: scale(1.05);
+    box-shadow : 0px 0px 15px rgba(0,0,0,0.4);
+}
+
+.recommendeddiv {
+    display: inline-flex;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+
+.divimg2 {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 24%;
+    height: 48%;
+    margin: 0 -15px;
+    text-align: center;
+    padding: 0px;
+}
+
+.divimg2:hover{
+    transform: scale(1.05);
+    box-shadow : 0px 0px 15px rgba(0,0,0,0.3);
+}
+
+
+footer {
+    margin-bottom: auto;
+}
+
+.subscribes {
+    border:solid 2px black ; 
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+    margin: 20px auto;
+    position:relative;
+}
+
+.subscribes:hover {
+    color: white;
+    background-color: black;
+    padding: 10px 0;
+    text-align: center;
+    margin: 20px auto;
+    position:relative;
+}
+
+p {
+    display: inline-flex;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.subfont {
+    display: inline-flex;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 10%;
+}
+
+.subpic {
+    display: inline-block;
+    color: black;
+    width: 80px;
+    padding: 0;
+    font-weight:1000;
+    font-size: 22px;
+    position:absolute;
+    top:28%;
+    left: 57%;
+}
+
+.subscribes:hover .subpic{
+    display: inline-block;
+    color: white;
+    width: 80px;
+    padding: 0;
+    font-weight:1000;
+    font-size: 22px;
+    position:absolute;
+    top:28%;
+    left: 57%;
+}
+
+
+.containersession {
+    display: inline-flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+
+}
+
+.session {
+    display: inline-block;
+    color: 4D4D4D;
+    text-align: left;
+    justify-content: center;
+    padding-bottom: 20px;
+
+}
+
+h5 {
+    display: block;
+    text-align: left;
+    font-size: 16px;
+}
+
+.footerlist {
+    display: block;
+    list-style: none;
+    text-align: left;
+    font-size: 15px;
+    padding-left:0;
+}
+
+footer li {
+    line-height: 20px;
+}
+
+.copyright {
+    background-color: 4D4D4D;
+    color: white;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+footer p {
+    display: flex;
+    background-color: 4d4d4d;
+    justify-content: flex-end;
+    padding: 0;
+    padding-right: 25px;
+    margin: 0;
+    font-size: 12px;
+}
